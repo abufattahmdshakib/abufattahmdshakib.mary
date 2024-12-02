@@ -15,7 +15,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 220px;
+    margin:0px 220px;
     }
 .nav-tittle{
             color: rgb(0, 0, 0);
@@ -39,12 +39,12 @@ nav li :hover{
 nav a{
       text-decoration: none;
       color: rgb(71, 71, 71);
-      font-size: 40px;
+      font-size: 30px;
      }
 .pry-button{
-           border-radius: 5px;
+           border-radius: 8px;
            background: rgb(253, 110, 10);
-           font-size: 50px;
+           font-size: 40px;
            border: 0px;
            color:aliceblue;
            }
@@ -53,13 +53,75 @@ nav a{
            /*  header-color  releted style*/
 
            .header-color{
-            background: rgb(255, 248, 243);
+            background: rgb(252, 235, 223);
+            background-image: url('../images/header_bg.png');
+            background-repeat: no-repeat;
+            background-position:bottom right;
+            background-size: 800px;
+        
+
            }
 
            .banner{
-            padding: 30px 30px 30px 150px;
+            padding: 30px 30px 0px 150px;
             display: flex;
+            text-align: center;
+            justify-content:space-between;
+
            }
-        .banner .hardy{
+
+           .banner .hardy{
             width: 500px;
         }
+        .benner-content{
+
+            max-width: 800px;
+        }
+.banner-hi{
+    font-size: 45px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 0px;  
+          }
+          .banner-tittel{
+            font-size: 85px;
+            font-weight: 700;
+            margin-top: 5px;
+            margin-bottom: 0px;
+          }
+          .banner-pera{
+            font-size: 20px;
+            padding-left: 70px;
+            margin-top: 20px;
+                      }
+    .hardy-pic{
+width: 560px;
+height: 680px;
+ } 
+ 
+ /* main section styles */
+
+/* common shared style */
+
+
+ .section-title{
+    color:black;
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+
+ }
+
+
+ /* about section styles */
+
+ .about{
+    padding: 130px;
+    border-radius: 10px;
+    background: rgb(252, 235, 223);
+    margin: 130px 0px;
+ }
+ .section-description{
+    color: rgb(71, 71, 71);
+font-size: 20px;
+text-align:center;
+ }
