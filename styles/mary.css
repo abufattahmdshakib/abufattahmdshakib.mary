@@ -68,13 +68,13 @@ nav a{
           margin-bottom: 0px;  
           }
 .banner-tittel{
-              font-size: 85px;
+              font-size: 87px;
               font-weight: 700;
               margin-top: 5px;
               margin-bottom: 0px;
              }
 .banner-pera{
-            font-size: 20px;
+            font-size: 25px;
             padding-left: 70px;
             margin-top: 20px;
             }
@@ -136,7 +136,11 @@ main section{
                  font-size: 30px;
                 margin-top: 8px;
                }
-               /* what i do related */
+/* what i do related */
+.section-title{
+    font-size: 50px;
+}
+
 #what-i-do-description{
                        padding: 40px 150px;
                        color:rgb(14, 13, 13); 
@@ -146,7 +150,8 @@ main section{
 /* skills related styles */
 .skills-container{
                   display: flex;
-                  gap: 70px;
+                  gap:30px;
+                
                  }
 .skill{
       padding: 40px;
@@ -178,10 +183,45 @@ main section{
            height:80px ;
            }
 /* A summary of My Resume related style */
-
+#my-resume{
+    text-align: center;
+    font-size:50px;
+}
 /* resume title */
-.resume-title{
-    color:#474747;
-font-size: 30px;
+.resume-colume-title{
+    color:rgb(48, 40, 40);
+font-size: 45px;
 font-weight: 700;
+}
+/* resume-container related */
+
+.resume-container{
+    display:flex;
+    gap:60px;
+}
+.resume-item-title{
+    color: rgb(58, 50, 50);
+font-size:40px;
+font-weight:700;
+margin-bottom: 10px;
+}
+.resome-item-institute{
+    color: rgb(53, 53, 53);
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom:20px;
+    margin-top: 0px;
+}
+.resume-item-description{
+    color: rgb(83, 83, 83);
+    font-size: 28px;
+    font-weight: 400;
+}
+.resume-container hr{
+    margin: 90px;
+}
+.Downlode-cv{
+    text-align: center;
+    margin-top: 50px;
+
 }
