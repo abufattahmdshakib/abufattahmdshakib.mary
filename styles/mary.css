@@ -13,6 +13,7 @@ nav{
     margin:0px 220px;
     }
 .nav-tittle{
+            margin-left: 50px;
             color: rgb(0, 0, 0);
             font-weight: 800;
            }
@@ -45,13 +46,13 @@ nav a{
 /*  header-color  related style*/
 .header-color{
         background:rgb(255, 248, 243);
-        background-image: url('../images/header_bg.png');
+        background-image: url('../images/header_bg.png'),  url('../images/developer.png');
         background-repeat: no-repeat;
-        background-position:bottom right;
-        background-size: 800px;
+        background-position:bottom right , bottom left;
+        background-size: 800px , 140px;
         }
 .banner{
-        padding: 30px 30px 0px 150px;
+        padding: 0px 0px 0px 250px;
         display: flex;
         text-align: center;
         justify-content:space-between;
@@ -68,7 +69,7 @@ nav a{
           margin-bottom: 0px;  
           }
 .banner-tittel{
-              font-size: 87px;
+              font-size: 85px;
               font-weight: 700;
               margin-top: 5px;
               margin-bottom: 0px;
@@ -223,5 +224,29 @@ margin-bottom: 10px;
 .Downlode-cv{
     text-align: center;
     margin-top: 50px;
-
+}
+/* footer related style */
+footer{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    background: rgb(255, 248, 243);
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+/* Lets Connect */
+.footer-section-description{
+    font-size:25px;
+}
+/* Let's Message me */
+.from-contact input, textarea{
+    display:block;
+    margin-bottom: 35px;
+    padding: 30px 65px;
+    border-radius: 10px;
+    border:1;
+    font-size: 25px;
 }
